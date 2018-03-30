@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #C0DEE2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+header {
+    background-color: #FF7360;
+    font-size: 2em;
+    padding: 0.5em;
+    font-weight: 500;
+  }
+
+#container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.main {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8em;
+    background-color: #53E5ED;
+
+    padding: 0.5em;
+    margin: 0.5em;
+    cursor: default;
+    user-select: none;
+
+    border-radius: 0.1em;
+  }
